@@ -60,35 +60,68 @@ button {
     color:#e5e7eb;
 }
 /* ------------------------------ Information Section -------------------------------------- */
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    height: 380px;
+}
+.infoheader {
+    text-align: center;
+    margin: 25px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
 .pt {
     width: 180px;
     height: 180px;
+    border: 3px solid #3888f6;
+    border-radius: 10px;
 }
 .ptcontainer {
     width: 180px;
+    font-size: small;
+}
+.pttext {
+    margin-top: 4px;
 }
 .cf {
     width: 180px;
     height: 180px;
+    border: 3px solid #3888f6;
+    border-radius: 10px;
 }
 .cfcontainer {
     width: 180px;
+    font-size: small;
+}
+.cftext {
+    margin-top: 4px;
 }
 .yg {
     width: 180px;
     height: 180px;
+    border: 3px solid #3888f6;
+    border-radius: 10px;
 }
 .ygcontainer {
     width: 180px;
+    font-size: small;
+}
+.ygtext {
+    margin-top: 4px;
 }
 .mt {
     width: 180px;
     height: 180px;
+    border: 3px solid #3888f6;
+    border-radius: 10px;
 }
-.infoheader {
-    text-align: center;
-    margin: 20px;
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+.mtcontainer {
+    width: 180px;
+    font-size: small;
+}
+.mttext {
+    margin-top: 4px;
 }
