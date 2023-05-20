@@ -8,7 +8,8 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 525px;
     padding: 10px 0;
 }
 ul {
@@ -37,14 +38,16 @@ button {
     color: #f9fAf8;
 }
 .headercontainer {
-    height: 430px;
+    height: 450px;
     background: #1f2937;
+    display: flex;
+    flex-direction: column;
 }
 .herocontainer {
     display: flex;
     justify-content: center;
-    gap: 44px;
     margin-top: 50px;
+    gap: 80px;
 }
 .heroheader {
     font-size: 48px;
@@ -56,4 +59,36 @@ button {
     font-size: 18px;
     color:#e5e7eb;
 }
-/* ------------------------------ Header Section -------------------------------------- */
+/* ------------------------------ Information Section -------------------------------------- */
+.pt {
+    width: 180px;
+    height: 180px;
+}
+.ptcontainer {
+    width: 180px;
+}
+.cf {
+    width: 180px;
+    height: 180px;
+}
+.cfcontainer {
+    width: 180px;
+}
+.yg {
+    width: 180px;
+    height: 180px;
+}
+.ygcontainer {
+    width: 180px;
+}
+.mt {
+    width: 180px;
+    height: 180px;
+}
+.infoheader {
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
