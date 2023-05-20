@@ -1,8 +1,9 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* -------------------------------- Header Section ------------------------------------------*/
+/* ---------------------------------- Header Section ------------------------------------------*/
 .headerphoto {
     width: 350px;
 }
@@ -51,7 +52,6 @@ button {
 }
 .heroheader {
     font-size: 48px;
-    font-weight: 900;
     color: #f9faf8;
 }
 .herotext {
@@ -59,7 +59,7 @@ button {
     font-size: 18px;
     color:#e5e7eb;
 }
-/* ------------------------------ Information Section -------------------------------------- */
+/* -------------------------------- Information Section -------------------------------------- */
 .infocontainer {
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ button {
     text-align: center;
     margin: 25px;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: bold;
     color: #1f2937;
 }
 .pt {
@@ -84,6 +84,7 @@ button {
     font-size: small;
 }
 .pttext {
+    font-weight: 300;
     margin-top: 4px;
 }
 .cf {
@@ -98,6 +99,7 @@ button {
 }
 .cftext {
     margin-top: 4px;
+    font-weight: 300;
 }
 .yg {
     width: 180px;
@@ -107,10 +109,11 @@ button {
 }
 .ygcontainer {
     width: 180px;
-    font-size: small;
 }
 .ygtext {
     margin-top: 4px;
+    font-weight: 300;
+    font-size: small;
 }
 .mt {
     width: 180px;
@@ -120,8 +123,21 @@ button {
 }
 .mtcontainer {
     width: 180px;
-    font-size: small;
 }
 .mttext {
     margin-top: 4px;
+    font-size: small;
+    font-weight: 300;
+}
+/* ------------------------------------ Quote Section -------------------------------------- */
+.quotecontainer {
+    border: 3px solid red;
+    height: 300px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+.name {
+    font-weight: bold;
 }
