@@ -2,5 +2,55 @@ body {
     margin: 0;
 }
 .headerphoto {
-    width: 400px
+    width: 350px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    padding: 2px 20px;
+    border-radius: 7px;
+    margin: 10px 0;
+    background: #3888f6;
+    color: #f9fAf8;
+    font-size: 15px;
+    border-color: #3888f6;
+}
+.headerlogo {
+    font-size: 24px;
+    color: #f9fAf8;
+}
+.headercontainer {
+    height: 430px;
+    background: #1f2937;
+}
+.herocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    margin-top: 50px;
+}
+.heroheader {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.herotext {
+    width: 400px;
+    font-size: 18px;
+    color:#e5e7eb;
 }
