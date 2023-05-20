@@ -26,7 +26,7 @@ a {
     color: #e5e7eb;
 }
 button {
-    padding: 2px 20px;
+    padding: 4px 25px;
     border-radius: 7px;
     margin: 10px 0;
     background: #3888f6;
@@ -48,7 +48,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 80px;
+    gap: 98px;
 }
 .heroheader {
     font-size: 48px;
@@ -131,13 +131,21 @@ button {
 }
 /* ------------------------------------ Quote Section -------------------------------------- */
 .quotecontainer {
-    border: 3px solid red;
     height: 300px;
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .quote {
     font-size: 36px;
     font-style: italic;
+    width: 800px;
+    color: #1f2937;
 }
 .name {
     font-weight: bold;
+    border: 3px solid red;
+    
 }
