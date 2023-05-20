@@ -131,7 +131,7 @@ button {
 }
 /* ------------------------------------ Quote Section -------------------------------------- */
 .quotecontainer {
-    height: 300px;
+    height: 400px;
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
