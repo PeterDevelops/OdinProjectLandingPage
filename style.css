@@ -163,6 +163,9 @@ a {
     justify-content: center;
     align-items: center;
 }
+.action {
+    font-size: 18px
+}
 .signcontainer {
     border-radius: 5px;
     background-color: #3888f6;
@@ -170,7 +173,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 80px;
+    padding: 30px 100px;
 }
 .todaycontainer {
     display: flex;
@@ -183,4 +186,19 @@ a {
     font-size: 15px;
     color: #f9fAf8;
     padding: 3px 20px;
+}
+.today {
+    font-size: 13px;
+    font-weight: 100;
+}
+/*------------------------------------------ Footer Section --------------------------------------*/
+footer {
+    background: #1f2937;
+    color: #f9fAf8;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 100;
 }
