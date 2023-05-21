@@ -23,12 +23,13 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
+    font-weight: 300;
     color: #e5e7eb;
 }
-button {
+.headerbutton {
     padding: 4px 25px;
+    margin: 5px 0;
     border-radius: 7px;
-    margin: 10px 0;
     background: #3888f6;
     color: #f9fAf8;
     font-size: 15px;
@@ -57,6 +58,7 @@ button {
 .herotext {
     width: 400px;
     font-size: 18px;
+    font-weight: 300;
     color:#e5e7eb;
 }
 /* -------------------------------- Information Section -------------------------------------- */
@@ -68,9 +70,9 @@ button {
 }
 .infoheader {
     text-align: center;
-    margin: 25px;
+    margin: 30px 0;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
     color: #1f2937;
 }
 .pt {
@@ -154,4 +156,31 @@ button {
     display: flex;
     flex-direction: column;
 }
-
+/* ----------------------------------- Call To Action Section --------------------------- */
+.actioncontainer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signcontainer {
+    border-radius: 5px;
+    background-color: #3888f6;
+    color: #f9fAf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 80px;
+}
+.todaycontainer {
+    display: flex;
+    gap: 60px;
+}
+.signbutton {
+    background: #3888f6;
+    border-color: #f9fAf8;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #f9fAf8;
+    padding: 3px 20px;
+}
